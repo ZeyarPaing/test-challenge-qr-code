@@ -46,7 +46,7 @@ article p {
   margin-right: 2.6ch;
 }
 
-.attribution {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -54,6 +54,6 @@ article p {
   font-size: 0.6875rem;
   text-align: center;
 }
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
