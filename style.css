@@ -3,7 +3,19 @@
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
+  --link: hsl(228, 45%, 44%);
   --body: 0.9375rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: hsl(212, 45%, 16%);
+    --light-gray: hsl(212, 45%, 7%);
+    --grayish-blue: hsl(220, 15%, 65%);
+    --dark-blue: hsl(218, 44%, 92%);
+    --link: hsl(228, 54%, 58%);
+    --body: 0.9375rem;
+  }
 }
 
 html,
@@ -52,8 +64,9 @@ footer {
   width: 100%;
   margin-bottom: 1.5ch;
   font-size: 0.6875rem;
+  color: var(--dark-blue);
   text-align: center;
 }
 footer a {
-  color: hsl(228, 45%, 44%);
+  color: var(--link);
 }
